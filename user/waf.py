@@ -85,7 +85,7 @@ class WAF(object):
         return ngrams
 
 def Predict(url):
-    with open(r'C:\Users\30285\PycharmProjects\examOnline-master\examOnline-master\onlineExam\student\lgstest6.pickle', 'rb') as input:
+    with open(r'C:\Users\30285\PycharmProjects\Equipment_management_system\user\lgstest6.pickle', 'rb') as input:
         w = pickle.load(input)
 
     # X has 46 features per sample; expecting 7  youqude  cuowu
